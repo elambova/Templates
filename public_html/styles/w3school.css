@@ -1,0 +1,194 @@
+/*reset user agent*/
+html, body, header, #content, section, 
+footer, div, ul, li, img, p, a, button, h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Droid Serif', serif;
+    background-color: gainsboro;
+    padding: 1%;
+}
+
+hr {
+    color: gray;
+    width: 100%;
+    margin: 2px 3px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+h2 {
+    width: 99%;
+    background-color: grey;
+    color: white;
+    padding-left: 5px;
+    margin-top: -3px;
+}
+
+h3, a {
+    color: darkred;
+}
+
+/*end resets*/
+
+/*container*/
+#conteiner {
+    border: 1px solid gray;
+    height: 800px;
+}
+.button {
+    padding: 0px 5%;
+    margin: 2% 40%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+/*navigation left*/
+#navigation-left {
+    float: left;
+    padding-left: 2px;
+    width: 15%;
+}
+
+#logo {
+    display: inline;
+    padding-top: 10px;
+}
+
+#navigation-left span {
+    font-weight: bold;
+}
+
+#navigation-left h3 {
+    margin: -10px 0 1px 0;
+    font-size: 1em;
+}
+
+#navigation-left h3:first-of-type {
+    margin-top: 13px;
+}
+/*end navigation left*/
+
+/*navigation right*/
+#navigation-right {
+    float: right;
+    width: 20%;
+}
+
+#navigation-right div {
+    text-align: center;
+    margin-bottom: 1px;
+    border: 1px solid gray;
+    padding: 3% 1%;
+}
+
+#navigation-right h2 {
+    font-size: 1.1em;
+    margin: -5px 0 2px;
+}
+
+#search {
+    margin: 2% auto;
+    width: 70%;
+}
+
+#big-button {
+    width: 85%;
+    height: 40px;
+    background: #d6f9ff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #d6f9ff 0%, #9ee8fa 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d6f9ff), color-stop(100%,#9ee8fa)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #d6f9ff 0%,#9ee8fa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #d6f9ff 0%,#9ee8fa 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #d6f9ff 0%,#9ee8fa 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #d6f9ff 0%,#9ee8fa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #67B1BC;
+    font-size: 1em;
+    margin-bottom: 2%;
+}
+/*end navigation right*/
+
+/*content*/
+#content {
+    float: left;
+    width: 60%;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px 15px;
+}
+
+/*content header*/
+#header-section{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content button {
+    width: 20%;
+    text-align: center;
+    height: 35px;
+    margin: 5px 0;
+}
+
+#content h2 {
+    margin: 5px 0px 0px 5px;
+    width: 97%;
+    padding-right: 3px;
+}
+
+/*content asides*/
+#content aside {
+    padding: 1%;
+}
+
+/*asides header*/
+aside header{
+    margin-bottom: 2%;
+}
+
+/*asides*/
+#tutorial:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+}
+
+#tutorial img {
+    float: left;
+    margin: 10px 20px 25px 40px;
+}
+
+#content-tutorial {
+    float: right;
+    width: 75%;
+}
+
+#content-tutorial h4 {
+    margin: 2% auto;
+}
+
+#examples p, #reference p, #test p, 
+#examples a, #reference a, #test a{
+    padding-right: 1px;
+    margin: 5px 25px 15px;
+}
+
+/*content footer*/
+#content footer button{
+    margin: 2% auto;
+}
+/*end content*/

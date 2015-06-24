@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>W3school</title>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' 
+              rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="styles/w3school.css"/>
+    </head>
+    <body>
+        <a href="index.html" class="button">&Lsh; back</a>
+        <div id="conteiner">
+            <nav id="navigation-left">
+                <img alt="home" id="logo" title="Home" src="img/home_img.png" />
+                <span>HOME</span>
+                <h3>CSS Basic</h3>
+                <p>CSS Introduction</p>
+                <p>CSS Syntax</p>
+                <p>CSS How To</p>
+                <p>CSS Background</p>
+                <p>CSS Text</p>
+                <p>CSS Font</p>
+                <p>CSS Border</p>
+                <p>CSS Outline</p>
+                <p>CSS Margin</p>
+                <p>CSS Padding</p>
+                <p>CSS List</p>
+                <p>CSS Table</p>
+                <br />
+                <h3>CSS Advanced</h3>
+                <p>CSS Dimension</p>
+                <p>CSS Classification</p>
+                <p>CSS Positioning</p>
+                <p>CSS Pseudo-class</p>
+                <p>CSS Pseudo-element</p>
+                <p>CSS Image Gallery</p>
+                <p>CSS Image Opacity</p>
+                <p>CSS Media Types</p>
+                <p>CSS Don't</p>
+                <p>CSS Summary</p>
+                <br />
+                <h3>CSS Examples</h3>
+                <p>CSS Examples</p>
+                <br />
+                <h3>References</h3>
+                <p>CSS2 Reference</p>
+                <p>CSS2 Print</p>
+                <p>CSS2 Aural</p>
+                <p>CSS Units</p>
+                <p>CSS Colors</p>
+                <p>CSS Colorvalues</p>
+                <p>CSS Colornames</p>
+                <br />
+                <h3>CSS Quiz</h3>
+                <p>CSS Quiz</p>
+                <p>CSS Exam</p>
+            </nav>
+            <nav id="navigation-right">
+                <div>
+                    <h2>SITE SEARCH</h2>
+                    <input type="text" id="search" value="" />
+                    <input type="button" value="..." />
+                    <a href="#">About W3schools</a>
+                    <a href="#">W3schools Forum</a>
+                </div>
+                <div>
+                    <button id="big-button">25+ Styles!</button>
+                    <a href="#">Dynamic button image generation</a>
+                </div>
+                <div>
+                    <h2>WEB HOSTING</h2>
+                    <a href="#">$15 Domain Name</a>
+                    <a href="#">Registration</a>
+                    <br />
+                    <a href="#">Save $20 / year!</a>
+                </div>
+                <div>
+                    <a href="#">UK Domain Names</a>
+                    <br />
+                    <a href="#">UK Web Hosting</a>
+                    <a href="#">Alojamiento Web</a>
+                </div>
+                <div>
+                    <a href="#">Buy UK Domain Names</a>
+                    <a href="#">Register Domain Names</a>
+                </div>
+                <div>
+                    <a href="#">Cheap Domain Names</a>
+                    <a href="#">Cheap Web Hosting</a>
+                </div>
+                <div>
+                    <a href="#">Best Web Hosting</a>
+                </div>
+                <div>
+                    <a href="#">Domain Name</a>
+                    <a href="#">Registration</a>
+                </div>
+                <div>
+                    <a href="#">PHP MySQL Hosting</a>
+                </div>
+                <div>
+                    <a href="#">Top 10 Web Hosting</a>
+                </div>
+                <div>
+                    <a href="#">Web Hosting Providers</a>
+                </div>
+                <div>
+                    <a href="#">Web Hosting Company</a>
+                </div>
+                <div>
+                    <a href="#">Web Hosting Reviews</a>
+                </div>
+                <div>
+                    <a href="#">UK Web Hosting</a>
+                </div>
+            </nav>
+            <section id="content">
+                <header id="header-section">
+                    <h1>CSS Tutorial</h1>
+                    <button>◀ &nbsp; Previous</button>
+                    <button>Next &nbsp; ▶</button>
+                    <hr />
+                </header>
+                <aside id="tutorial">
+                    <header>
+                        <h2>CSS Tutorial</h2>
+                    </header>
+                    <img alt="css-logo" src="img/logocss.gif" title="CSS" />
+                    <div id="content-tutorial">
+                        <h4>Save a lot of work with CSS!</h4>
+                        <p>
+                            In our CSS tutorial you will learn how to use 
+                            CSS to control the style and layout of miltiple Web 
+                            pages all at once.
+                        </p>
+                        <a href="#">Start learning CSS!</a>
+                    </div>
+                </aside>
+                <aside id="examples">
+                    <header>
+                        <h2>CSS Examples</h2>
+                    </header>
+                    <p>
+                        Learn by 70 examples! With our editor, you can edit 
+                        CSS, and click on a test button to view the result.
+                    </p>
+                    <a href="#">Try-It-Yourself!</a>
+                </aside>
+                <aside id="reference">
+                    <header>
+                        <h2>CSS Reference</h2>
+                    </header>
+                    <p>
+                        An W3school you will find a complete CSS2 reference, 
+                        listing properties, units of measurements, colors, and 
+                        more.
+                    </p>
+                    <a href="#">CSS2 Reference</a>
+                </aside>
+                <aside id="test">
+                    <header>
+                        <h2>CSS Quiz Test</h2>
+                    </header>
+                    <p>
+                        Test your CSS skills at W3schools!
+                    </p>
+                    <a href="#">Start CSS Quiz!</a>
+                </aside>
+                <footer>
+                    <hr />
+                    <button>◀ &nbsp; Previous</button>
+                    <button>Next &nbsp; ▶</button>
+                    <hr />
+                </footer>
+            </section>
+        </div>
+        <script>
+            function divsInsideAnotherDiv(divId) {
+                var selector = 'div#' + divId + ' div';
+
+                return document.querySelectorAll(selector);
+            }
+            console.log(divsInsideAnotherDiv('navigation'));
+
+            function getDivInside(divId) {
+                var div = document.getElementById(divId);
+
+                if (div.tagName.toLowerCase() !== 'div') {
+                    throw new Error("This isn't div!")
+                }
+                var insideDiv = div.getElementsByTagName('div');
+                return insideDiv;
+            }
+            console.log(getDivInside('conteiner'));
+        </script>
+    </body>
+</html>

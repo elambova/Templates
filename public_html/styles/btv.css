@@ -1,0 +1,108 @@
+/*reset user agent*/
+html, body, div, ul, li, p, a, img, nav {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to right,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*end resets*/
+
+/*container*/
+#container {
+    border: 1px solid #3a84c3;
+    background-color: darkslategray;
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.button {
+    padding: 0px 5%;
+    margin: 2% 40%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+/*menu*/
+nav{
+    padding: 2%;
+    width: 95%;
+}
+#menu li {
+    position: relative;
+    display: block;
+    float: left;
+    border: 1px solid darkslategray;
+    background-color: darkseagreen;
+}
+
+#menu li a {
+    color: dimgray;   
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+#menu a:hover {
+    text-decoration: underline;
+}
+a.active {
+    background-color: darkslategrey;
+    color: #ffffff !important;
+}
+/*end menu*/
+
+/*content*/
+#content {
+    background-color: darkslategrey;
+    width: 50%;
+    margin-top: 30px;
+    padding-left: 26px;
+}
+
+#content p {
+    display: block;
+    border-bottom: 1px solid #3a8bc2;
+    padding: 3%;
+    color: gray;
+    text-align: left;
+}
+
+#content p:first-child {
+    background-color: #3a8bc2;
+    color: white;
+}
+
+#content p:last-of-type {
+    border-bottom: none;
+}
+
+#content img {
+    position: absolute;
+    top: 25%;
+    right: 13%;
+}
